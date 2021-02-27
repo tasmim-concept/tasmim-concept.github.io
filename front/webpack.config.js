@@ -25,8 +25,7 @@ const cssLoaders = [
 const config = {
     context: path.resolve(__dirname, 'src'),
     entry: {
-        index: ['./js/index.jsx', './css/style.scss'],
-        // admin: ['./js/admin.jsx'] //e.g. to add others files
+        index: ['./js/index.jsx', './css/style.scss']
     },
     resolve: {
         extensions: ['.jsx', '.js', '.json'],
@@ -35,7 +34,7 @@ const config = {
         }
     },
     output: {
-        path: path.resolve(__dirname, '../public/assets'),
+        path: path.resolve(__dirname, '../docs/assets'),
         publicPath: 'assets/',
         filename: 'js/[name].min.js'
     },
@@ -103,7 +102,7 @@ const config = {
         })
     ],
     devServer: {
-        contentBase: path.resolve(__dirname, '../public'),
+        contentBase: path.resolve(__dirname, '../docs'),
         overlay: false,
         hot: true,
         port: 8000,
