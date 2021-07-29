@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="title">
                     <h2><em>About</em> me</h2>
-                    <span class="subtitle">In a few words</span>
+                    <span class="subtitle">In few words</span>
                 </div>
                 <div class="content">
                     <div class="img">
@@ -53,8 +53,8 @@
                             <span>Seraoui</span>
                         </li>
                         <li>
-                            <h3>Freelance</h3>
-                            <span>Available</span>
+                            <h3>Available</h3>
+                            <span>Remote only</span>
                         </li>
                         <li>
                             <h3>Languages</h3>
@@ -197,7 +197,7 @@
             <div class="container">
                 <div class="title">
                     <h2>Recent <em>news</em></h2>
-                    <span class="subtitle">Some articles in french</span>
+                    <span class="subtitle">Some articles in french (nothing for now)</span>
                 </div>
                 <div class="cards">
                     <div class="card">
@@ -273,54 +273,56 @@
         </section>
         <section class="contact" id="contact">
             <div class="container">
-                <div class="title">
-                    <h2><em>Contact</em> me</h2>
+                <h2><em>Contact</em> me</h2>
+                <div class="block">
                     <span class="subtitle">Let me a little message</span>
+                    <div>
+                        <form action="https://formspree.io/f/mqkgrlwd" method="POST" class="form-contact">
+                            <label for="name">Your name :</label>
+                            <input id="name" type="text" name="name" placeholder="Jane Doe" required>
+
+                            <label for="mail">Your e-mail :</label>
+                            <input id="mail" type="email" name="mail" placeholder="jane.doe@example.com" required>
+
+                            <label for="message">Your message :</label>
+                            <textarea name="message" id="message" placeholder="Hello, ..." required></textarea>
+
+                            <input type="submit" value="Send">
+                        </form>
+                        <p class="small">Think to indicate your phone number or your e-mail to be contact back.</p>
+                    </div>
                 </div>
-                <div>
-                    <p class="small">Think to indicate your phone number or your e-mail to be contact back.</p>
-                    <form action="https://formspree.io/f/mqkgrlwd" method="POST" class="form-contact">
-                        <label for="name">Your name :</label>
-                        <input id="name" type="text" name="name" placeholder="Jane Doe" required>
-
-                        <label for="mail">Your e-mail :</label>
-                        <input id="mail" type="email" name="mail" placeholder="jane.doe@example.com" required>
-
-                        <label for="message">Your message :</label>
-                        <textarea name="message" id="message" placeholder="Hello, ..." required></textarea>
-
-                        <input type="submit" value="Send">
-                    </form>
-                </div>
-                <div class="subtitle">You can also find me there</div>
-                <div class="content">
-                    <ul class="infos">
-                        <li class="address">
-                            <h3>Address</h3>
-                            <p>
-                                5 rue du Rhône<br/>
-                                74100 Annemasse, France
-                            </p>
-                        </li>
-                        <li class="phone">
-                            <h3>Phone</h3>
-                            <a href="tel:0033667306435">(+33) 6 67 30 64 35</a>
-                        </li>
-                        <li class="mail">
-                            <h3>E-mail</h3>
-                            <a href="mailto:tasmim.concept@gmail.com">tasmim.concept@gmail.com</a>
-                        </li>
-                        <li class="infos-socials">
-                            <h3>Socials</h3>
-                            <ul>
-                                <li><a href="https://www.instagram.com/amina.sri/"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://codepen.io/tasmim-concept"><i class="fab fa-codepen"></i></a></li>
-                                <li><a href="https://github.com/tasmim-concept"><i class="fab fa-github"></i></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="right">
-                        <div class="img"><img src="img/contact.jpeg" alt="Contact"/></div>
+                <div class="block">
+                    <div class="subtitle">You can also find me there</div>
+                    <div class="content">
+                        <ul class="infos">
+                            <li class="address">
+                                <h3>Address</h3>
+                                <p>
+                                    5 rue du Rhône<br/>
+                                    74100 Annemasse, France
+                                </p>
+                            </li>
+                            <li class="phone">
+                                <h3>Phone</h3>
+                                <a href="tel:0033667306435">(+33) 6 67 30 64 35</a>
+                            </li>
+                            <li class="mail">
+                                <h3>E-mail</h3>
+                                <a href="mailto:tasmim.concept@gmail.com">tasmim.concept@gmail.com</a>
+                            </li>
+                            <li class="infos-socials">
+                                <h3>Socials</h3>
+                                <ul>
+                                    <li><a href="https://www.instagram.com/amina.sri/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://codepen.io/tasmim-concept"><i class="fab fa-codepen"></i></a></li>
+                                    <li><a href="https://github.com/tasmim-concept"><i class="fab fa-github"></i></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="right">
+                            <div class="img"><img src="img/contact.jpeg" alt="Contact"/></div>
+                        </div>
                     </div>
                 </div>
             </div>
