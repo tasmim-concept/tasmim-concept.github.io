@@ -1,7 +1,6 @@
 # [tasmim-concept.github.io](https://tasmim-concept.github.io/)
 
-⚠️ Le site web est encore en cours de réflexion concernant la direction artistique, ainsi,
-il n'est pas encore finalisé.
+⚠️ Le site web n'est pas encore terminé.
 
 ## Objectif du projet
 
@@ -10,8 +9,10 @@ web unique par lequel je pourrais démontrer mes qualités dans le développemen
 
 ## To-Do
 
-- [ ] Finaliser les rubriques
-- [ ] Responsive design
+- [X] Finaliser les rubriques
+- [X] Responsive design
+- [ ] Articles de blog
+- [ ] Pages projets
 
 ## Crédits
 
