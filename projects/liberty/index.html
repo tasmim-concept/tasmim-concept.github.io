@@ -6,20 +6,190 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="/assets/css/index.min.css">
-        <link rel="icon" href="/img/temp-logo.png" type="image/png">
+        <link rel="icon" href="/img/logo.png" type="image/png">
         <title>Tasmim Concept</title>
+
+        <!-- Fonts : -->
+        <style>
+            @font-face {
+                font-family: Thinoo;
+                src: url('Thinoo-Thin.otf');
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
-    <body id="home">
-        <header>
-            <h1>Liberty</h1>
+    <body class="project-page" id="liberty">
+        <header style="background-image: url('/img/portfolio/Liberty.jpg')">
+            <nav class="navbar">
+                <a class="logo" href="/" title="Home">
+                    <img src="/img/logo.svg" alt="Logo Tasmim Concept"/>
+                </a>
+                <span><a href="tel:+33667306435">(+33) 6 67 30 64 35</a></span>
+            </nav>
+            <div class="title">
+                <h1>Liberty</h1>
+                <span>2021</span>
+            </div>
         </header>
         <section>
             <div class="container">
-                <h2>Lorem Ipsum</h2>
+                <h2>À <strong>propos</strong></h2>
+                <div class="content">
+                    <div class="text">
+                        <p>
+                            J'ai dû réaliser une page web. Le client m'a fourni le template en .jpg et les images a intégrer.
+                            Il m'a ensuite donné ses retours pour les améliorations souhaitées, notamment concernant le
+                            responsive.
+                        </p>
+                    </div>
+                    <div class="picture">
+                        <img src="screen-3.jpg" alt="Header">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2><strong>Stack</strong> technique</h2>
+                <span class="subtitle">Intégration d'une page web.</span>
+                <div class="content">
+                    <div class="picture">
+                        <img src="screen-1.jpg" alt="Works">
+                    </div>
+                    <div class="text">
+                        <ul class="infos">
+                            <li>
+                                <h3>Rôle</h3>
+                                <span>Développeur frontend, intégrateur.</span>
+                            </li>
+                            <li>
+                                <h3>Technologies</h3>
+                                <ol class="list">
+                                    <li>Sass</li>
+                                    <li>Webpack</li>
+                                </ol>
+                            </li>
+                            <li style="width: 100%;">
+                                <h3>Fichiers</h3>
+                                <div class="files">
+                                    <div class="file">
+                                        <a target="_blank" href="result.pdf"><i class="far fa-file-pdf"></i></a>
+                                        <span>Résultat</span>
+                                    </div>
+                                    <div class="file">
+                                        <a target="_blank" href="template.zip"><i class="far fa-file-archive"></i></a>
+                                        <span>Template</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Difficultés</h2>
+                <div class="content">
+                    <div class="text">
+                        <p>
+                            La principale difficulté (pas grand chose au final) était que le client désirait le fichier css
+                            finale non compressé et pas de JavaScript.
+                            <br>
+                            <br>
+                            J'ai donc dû trouver des alternatives au js, notamment pour le menu burger en <em>CSS Only</em>.
+                            J'ai dû aussi réadapter ma façon de travailler : comme j'ai l'habitude d'utiliser Sass avec
+                            Webpack et qu'il compresse automatiquement mon fichier CSS à la compilation.
+                            <br>
+                            <br>
+                            Au final, les exigences du client étaient faciles à répondre.
+                        </p>
+                        <p>
+                            J'ai également dû faire une recherche de typographie correspondant à la direction artistique
+                            du modèle fourni, car les polices n'étaient pas incluses dans les fichiers que j'ai reçu.
+                        </p>
+                    </div>
+                    <div class="picture">
+                        <img src="screen-2.jpg" alt="Pricing">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Identité <strong>visuelle</strong></h2>
+                <div class="brandboard">
+                    <div class="flex">
+                        <div class="logos">
+                            <h3>Logos</h3>
+                            <div class="content">
+                                <div class="dark">
+                                    <img src="logo.png" alt="Liberty Logo">
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="vertical">
+                        <div class="fonts">
+                            <h3>Fonts</h3>
+                            <div class="content">
+                                <div class="font1">
+                                    <h4>Roboto</h4>
+                                    <p style="font-family: 'Roboto'">
+                                        Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+                                        <br>
+                                        <br>
+                                        0 1 2 3 4 5 6 7 8 9
+                                    </p>
+                                </div>
+                                <div class="font2">
+                                    <h4>Thinoo</h4>
+                                    <p style="font-family: Thinoo">
+                                        Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+                                        <br>
+                                        <br>
+                                        0 1 2 3 4 5 6 7 8 9
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colors">
+                            <h3>Colors</h3>
+                            <div class="content">
+                                <div class="color">
+                                    <div style="background-color: #FFF"></div>
+                                    <span>#FFFFFF</span>
+                                </div>
+                                <div class="color">
+                                    <div style="background: #1E2A37"></div>
+                                    <span>#1E2A370</span>
+                                </div>
+                                <div class="color">
+                                    <div style="background: #E85546"></div>
+                                    <span>#E85546</span>
+                                </div>
+                                <div class="color">
+                                    <div style="background: #999"></div>
+                                    <span>#999</span>
+                                </div>
+                                <div class="color">
+                                    <div style="background: #3498DB"></div>
+                                    <span>#3498DB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <footer>
-             Copyright © 2021 Tasmim Concept. All Rights Reserved.
+            <div class="container">
+                <p>
+                    <img src="/img/logo.svg" alt="Logo" width="64px">
+                </p>
+                <p>
+                    Copyright © 2021 - Tasmim Concept. All Rights Reserved.
+                </p>
+            </div>
         </footer>
     </body>
     <script src="/assets/js/index.min.js"></script>
